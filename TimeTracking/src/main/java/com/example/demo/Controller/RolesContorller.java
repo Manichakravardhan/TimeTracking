@@ -16,6 +16,8 @@ import com.example.demo.Service.RolesService;
 public class RolesContorller {
 	
 	
+	/* This contoller adds the Roles into the table*/
+	
 	@Autowired
 	RolesService rolesService;
 	
