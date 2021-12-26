@@ -48,6 +48,11 @@ public class UserService {
 		
 		User u = userRepository.getById(user.getId());
 		u.setId(user.getId());
+		u.setUpdatedDateTime(user.getUpdatedDateTime());
+		u.setEmail(user.getEmail());
+		u.setFirstName(user.getFirstName());
+		u.setLastName(user.getLastName());
+		u.setRoleId(user.getRoleId());
 		u.setName(user.getName());
 		
 		
