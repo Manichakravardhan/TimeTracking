@@ -30,6 +30,8 @@ public class RolesService {
 		r.setRoleId(role.getRoleId());
 		r.setRoleName(role.getRoleName());
 		r.setRoleDescription(role.getRoleDescription());
+		r.setUpdated_datetime(role.getUpdated_datetime());
+		r.setCreated_datetime(role.getCreated_datetime());
 		return role;
 		
 	}
